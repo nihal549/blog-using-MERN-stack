@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://nv1723:nv1723@cluster0.hkkvq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
