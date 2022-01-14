@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken')
 
-mongoose.connect('mongodb://127.0.0.1:27017/blog', {
+mongoose.connect('mongodb+srv://nv1723:nv1723@cluster0.hkkvq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
